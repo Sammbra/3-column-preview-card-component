@@ -1,0 +1,95 @@
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: var(--very-light-gray);
+    line-height: 1.6;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9375rem;
+}
+
+main {
+    padding: 4.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 26.25rem;
+    margin: 0 auto;
+}
+
+main .card {
+    padding: 2.5rem 2.3rem;
+}
+
+main .card img {
+    margin-bottom: 1rem;
+    height: 2.1875rem;
+}
+
+main .card h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+main .card p {
+    color: var(--transparent-white);
+    margin-bottom: 1rem;
+}
+
+main .card .btn {
+    display: inline-block;
+    background-color: var(--very-light-gray);
+    border-radius: 3.125rem;
+    padding: 0.5rem 1.5rem;
+    transition: all 200ms ease-in;
+}
+
+main .card .btn:hover {
+    color: var(--very-light-gray);
+    background-color: transparent;
+    border: 2px solid var(--very-light-gray);
+}
+
+main .card-1 {
+    background-color: var(--bright-orange);
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+main .card-2 {
+    background-color: var(--dark-cyan);
+}
+
+main .card-3 {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+
+main .card-1 .btn-1 {
+    color: var(--bright-orange);
+}
+
+main .card-2 .btn-2 {
+    color: var(--dark-cyan);
+}
+
+main .card-3 .btn-3 {
+    color: var(--very-dark-cyan);
+}
+

@@ -104,6 +104,7 @@ footer {
 footer .attribution a {
     color: #000;
     transition: color 300ms ease-in;
+    padding: 1rem 0;
 }
 
 footer .attribution a:hover {
